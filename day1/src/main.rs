@@ -2,6 +2,7 @@ use std::{env};
 use std::collections::HashMap;
 use std::fs::read_to_string;
 use eyre::{bail, eyre};
+use jane_eyre::owo_colors::OwoColorize;
 use jane_eyre::Result;
 use regex::{Regex};
 
@@ -72,10 +73,36 @@ fn parse_alphanumeric(line: &str) -> u32 {
         ("nine", "9"),
     ]);
     
+    let rev_alphanumeric_patterns =
+        Regex::new(r"1|2|3|4|5|6|7|8|9|eno|owt|eerht|ruof|evif|xis|neves|thgie|enin")
+            .unwrap();
+    
+    let rev_hashmap = HashMap::from([
+        ("1", "1"),
+        ("2", "2"),
+        ("3", "3"),
+        ("4", "4"),
+        ("5", "5"),
+        ("6", "6"),
+        ("7", "7"),
+        ("8", "8"),
+        ("9", "9"),
+        ("eno", "1"),
+        ("owt", "2"),
+        ("eerht", "3"),
+        ("ruof", "4"),
+        ("evif", "5"),
+        ("xis", "6"),
+        ("neves", "7"),
+        ("thgie", "8"),
+        ("enin", "9"),
+    ]);
+    
     let first = alphanumeric_patterns.find(line).unwrap().as_str();
-    let last = alphanumeric_patterns.find_iter(line).last().unwrap().as_str();
+    let rev_line = &line.chars().rev().collect::<String>();
+    let last = rev_alphanumeric_patterns.find(rev_line).unwrap().as_str();
     let first_num = hashmap.get(first).unwrap();
-    let last_num = hashmap.get(last).unwrap();
+    let last_num = rev_hashmap.get(last).unwrap();
     
     let output = format!("{first_num}{last_num}");
     // println!("{output}");
@@ -123,7 +150,7 @@ mod tests {
     }
     
     #[test]
-    fn it_adds() {
-    
+    fn it_parses() {
+        assert_eq!(18, parse_alphanumeric("oneight"))
     }
 }
