@@ -1,0 +1,11 @@
+/Users/draine/code/aoc/2023/rust/day0/target/debug/deps/libowo_colors-8fccebf035be0a09.rmeta: /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/lib.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/dyn_colors.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/dyn_styles.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/colors.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/colors/xterm.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/colors/dynamic.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/styles.rs
+
+/Users/draine/code/aoc/2023/rust/day0/target/debug/deps/owo_colors-8fccebf035be0a09.d: /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/lib.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/dyn_colors.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/dyn_styles.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/colors.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/colors/xterm.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/colors/dynamic.rs /Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/styles.rs
+
+/Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/lib.rs:
+/Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/dyn_colors.rs:
+/Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/dyn_styles.rs:
+/Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/colors.rs:
+/Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/colors/xterm.rs:
+/Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/colors/dynamic.rs:
+/Users/draine/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owo-colors-1.3.0/src/styles.rs:
